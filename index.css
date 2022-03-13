@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amiri&family=Fredoka:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-fondo {
+    width: 100%;
+    height: 100%;
+    background-color:aquamarine;
+    background-image: url(./Assets/hillary-black-tUN4vQyjmnA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    position: absolute;
+    top:25px;
+    left: 65px;
+    width: 90%;
+    height: 80px;
+    background-color: #F68989;
+}
+
+nav {
+    position: absolute;
+    left: 57%;
+    
+}
+
+ul {
+    display: flex;
+
+}
+
+
+li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: #fff;
+   
+}
+
+.welcome {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: #874356;
+}
+
+h3 {
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+    color: #C65D7B;
+}
+
+.contactame {
+    margin-top: 10px;
+    background-color: #fff;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.boton-contacto {
+    color:#C65D7B;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.sobre-mi {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.grid{
+    margin-top: 10px;
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.img-1 {
+    width: 300px;
+    height: 200px;
+    background-image: url(./Assets/febe-vanermen-xnuGgz0ctks-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-2 {
+    width: 250px;
+    height: 350px;
+    background-image: url(./Assets/michel-burdieri-0uGmhqc6Vh8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-3 {
+    width: 380px;
+    height: 300px;
+    background-image: url(./Assets/matthew-sichkaruk-3qZt1MwF4Zo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-4 {
+    width: 300px;
+    height: 200px;
+    background-image: url(./Assets/jexo-yVxUC9I9Cik-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-5 {
+    width: 350px;
+    height: 250px;
+    background-image: url(./Assets/mitchell-orr-Pzu9f6Nby5w-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Jugando con hover */
+
+.img-1:hover {
+    width: 350px;
+    height: 280px;
+    border: 2px solid #ffff;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    
+}
+
+.img-2:hover {
+    width: 400px;
+    height: 380px;
+    border: 2px solid #ffff;
+    transition-duration: 1.5s;
+    cursor: pointer;
+       
+}
+
+.img-3:hover  {
+    width: 420px;
+    height: 320px;
+    border: 2px solid #ffff;
+    transition-duration: 1.5s;
+    cursor: pointer;
+        
+}
+
+.img-4:hover {
+    width: 380px;
+    height: 280px;
+    border: 2px solid #ffff;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.img-5:hover {
+    width: 500px;
+    height: 250px;
+    border: 2px solid #ffff;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8A39E1;
+}
+
+a:visited {
+    text-decoration: none;
+    color: none;
+}
